@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		43744E602B9DB618005D3856 /* libtjpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E5F2B9DB618005D3856 /* libtjpeg.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43744E942B9DB9ED005D3856 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E672B9DB9ED005D3856 /* jpeglib.h */; };
+		43744E942B9DB9ED005D3856 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E672B9DB9ED005D3856 /* jpeglib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744E952B9DB9ED005D3856 /* jddctmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E682B9DB9ED005D3856 /* jddctmgr.c */; };
-		43744E962B9DB9ED005D3856 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E692B9DB9ED005D3856 /* jerror.h */; };
+		43744E962B9DB9ED005D3856 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E692B9DB9ED005D3856 /* jerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744E972B9DB9ED005D3856 /* jidctfst.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E6A2B9DB9ED005D3856 /* jidctfst.c */; };
 		43744E982B9DB9ED005D3856 /* jdatasrc.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E6B2B9DB9ED005D3856 /* jdatasrc.c */; };
 		43744E992B9DB9ED005D3856 /* jdhuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E6C2B9DB9ED005D3856 /* jdhuff.c */; };
@@ -34,9 +34,9 @@
 		43744EAB2B9DB9ED005D3856 /* jquant1.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E7E2B9DB9ED005D3856 /* jquant1.c */; };
 		43744EAC2B9DB9ED005D3856 /* jcdctmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E7F2B9DB9ED005D3856 /* jcdctmgr.c */; };
 		43744EAD2B9DB9ED005D3856 /* jutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E802B9DB9ED005D3856 /* jutils.c */; };
-		43744EAE2B9DB9ED005D3856 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E812B9DB9ED005D3856 /* jconfig.h */; };
+		43744EAE2B9DB9ED005D3856 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E812B9DB9ED005D3856 /* jconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744EAF2B9DB9ED005D3856 /* jcapistd.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E822B9DB9ED005D3856 /* jcapistd.c */; };
-		43744EB02B9DB9ED005D3856 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E832B9DB9ED005D3856 /* jmorecfg.h */; };
+		43744EB02B9DB9ED005D3856 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E832B9DB9ED005D3856 /* jmorecfg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744EB12B9DB9ED005D3856 /* jfdctfst.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E842B9DB9ED005D3856 /* jfdctfst.c */; };
 		43744EB22B9DB9ED005D3856 /* jaricom.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E852B9DB9ED005D3856 /* jaricom.c */; };
 		43744EB32B9DB9ED005D3856 /* jdmaster.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E862B9DB9ED005D3856 /* jdmaster.c */; };
@@ -227,15 +227,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43744EC42B9DBB39005D3856 /* jpegint.h in Headers */,
-				43744EB42B9DB9ED005D3856 /* jversion.h in Headers */,
 				43744EB02B9DB9ED005D3856 /* jmorecfg.h in Headers */,
-				43744EC82B9DBB52005D3856 /* jmemsys.h in Headers */,
+				43744EAE2B9DB9ED005D3856 /* jconfig.h in Headers */,
 				43744E962B9DB9ED005D3856 /* jerror.h in Headers */,
 				43744E942B9DB9ED005D3856 /* jpeglib.h in Headers */,
+				43744EC42B9DBB39005D3856 /* jpegint.h in Headers */,
+				43744EB42B9DB9ED005D3856 /* jversion.h in Headers */,
+				43744EC82B9DBB52005D3856 /* jmemsys.h in Headers */,
 				43744E602B9DB618005D3856 /* libtjpeg.h in Headers */,
 				43744EC62B9DBB45005D3856 /* jdct.h in Headers */,
-				43744EAE2B9DB9ED005D3856 /* jconfig.h in Headers */,
 				43744EC22B9DBB28005D3856 /* jinclude.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
